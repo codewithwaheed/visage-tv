@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import toggleContext from "../../context/toggleContext";
 import "./Header.css";
 function Header() {
+  const { currentState, setCurrentState } = useContext(toggleContext);
+  console.log("state", currentState);
   return (
     <div className="Navbar">
       <div className="logo">
@@ -18,8 +21,26 @@ function Header() {
         <img className="searchimg" src="/img/search.svg" />
       </div>
       <div className="twobtn">
-        <button className="livetv">Live Tv</button>
-        <button className="movies">Movies</button>
+        <button
+          onClick={() => setCurrentState("tv")}
+          className={
+            currentState === "tv"
+              ? "headerButton tv headerButtonActive"
+              : "headerButton tv"
+          }
+        >
+          Live Tv
+        </button>
+        <button
+          onClick={() => setCurrentState("movie")}
+          className={
+            currentState === "movie"
+              ? "headerButton  headerButtonActive"
+              : "headerButton"
+          }
+        >
+          Movies
+        </button>
       </div>
       <div className="contactnoti">
         <button className="contactbtn">Contact</button>

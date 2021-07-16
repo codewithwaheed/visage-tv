@@ -1,3 +1,53 @@
-.Livetv {
-  width: 75%;
+/* .liveTvRow{} */
+
+.liveTvCard {
+  width: 355px;
+  height: 108px;
+  border-radius: 20px;
+  border: 1px solid #383547;
+  position: relative;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+}
+.liveTvCard .cardBadge {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 39px;
+  height: 25px;
+  display: flex;
+  color: #4bbdef;
+  font: 11px poppins;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--kBrown);
+  clip-path: polygon(0 0, 100% 0, 88% 52%, 100% 100%, 0 98%, 0 53%);
+}
+.liveTvCard .circle {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liveTvCard .content {
+  padding-left: 20px;
+}
+.liveTvCard .content .title {
+  font: 17px poppinsMd;
+  color: #fff;
+}
+.liveTvCard .content .desc {
+  font: 15px poppins;
+  color: #595d70;
+  margin-bottom: 2px;
+}
+.liveTvCard .content .location {
+  font: 10px poppinsMd;
+  color: #0f72cb;
+  display: flex;
+  align-items: center;
 }

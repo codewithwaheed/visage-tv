@@ -1,0 +1,40 @@
+:root {
+  --primaryWhite: rgba(255, 255, 255, 0.1);
+  --backgroudColor: rgba(31, 29, 43, 1);
+  --primaryDarkBlue: #0148b4;
+  --kBrown: #353440;
+}
+
+/* adding fonts */
+@font-face {
+  font-family: "poppins";
+  src: url(assets//fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppinsMd";
+  src: url(assets//fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "poppinsSb";
+  src: url(assets//fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "poppinsBd";
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+body {
+  background: var(--backgroudColor);
+}
+.mainDiv {
+  display: flex;
+}
+
+.contentDiv {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.secTitle {
+  font: 28px poppinsMd;
+  color: #fff;
+}

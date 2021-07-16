@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: rgba(31, 29, 43, 1);
-}
 .Navbar {
   background: rgba(31, 29, 43, 1);
   width: 100%;
@@ -28,24 +23,20 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.1);
 }
 
-.livetv {
-  background: rgba(15, 114, 203, 1);
+.headerButton {
+  padding: 6px 30px;
   color: white;
   border: none;
   border-radius: 10px;
-  padding: 6px 30px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.headerButtonActive {
+  background: rgba(15, 114, 203, 1);
+}
+.twobtn .tv {
   margin-right: -18px;
 }
-.movies {
-  border: none;
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
-}
-.movies {
-  padding: 6px 30px;
-  color: white;
-  border-radius: 10px;
-}
+
 .contactbtn {
   border: none;
   background: rgba(255, 255, 255, 0.1);
