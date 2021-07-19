@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/visage-tv/static/css/main.f08bbe55.chunk.css",
+    "main.js": "/visage-tv/static/js/main.ca97ce0a.chunk.js",
+    "main.js.map": "/visage-tv/static/js/main.ca97ce0a.chunk.js.map",
+    "runtime-main.js": "/visage-tv/static/js/runtime-main.d3f1e026.js",
+    "runtime-main.js.map": "/visage-tv/static/js/runtime-main.d3f1e026.js.map",
+    "static/css/2.a01d5c66.chunk.css": "/visage-tv/static/css/2.a01d5c66.chunk.css",
+    "static/js/2.08123711.chunk.js": "/visage-tv/static/js/2.08123711.chunk.js",
+    "static/js/2.08123711.chunk.js.map": "/visage-tv/static/js/2.08123711.chunk.js.map",
+    "index.html": "/visage-tv/index.html",
+    "static/css/2.a01d5c66.chunk.css.map": "/visage-tv/static/css/2.a01d5c66.chunk.css.map",
+    "static/css/main.f08bbe55.chunk.css.map": "/visage-tv/static/css/main.f08bbe55.chunk.css.map",
+    "static/js/2.08123711.chunk.js.LICENSE.txt": "/visage-tv/static/js/2.08123711.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/visage-tv/static/media/Poppins-SemiBold.cce5625b.ttf",
+    "static/media/styles.css": "/visage-tv/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3f1e026.js",
+    "static/css/2.a01d5c66.chunk.css",
+    "static/js/2.08123711.chunk.js",
+    "static/css/main.f08bbe55.chunk.css",
+    "static/js/main.ca97ce0a.chunk.js"
+  ]
+}
