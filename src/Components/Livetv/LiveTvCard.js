@@ -1,18 +1,24 @@
 import React from "react";
 
-export default function LiveTvCard() {
+export default function LiveTvCard({
+  count,
+  image,
+  name,
+  description,
+  location,
+}) {
   return (
     <div className="liveTvCard">
-      <div className="cardBadge">123</div>
+      <div className="cardBadge">{count}</div>
       <div className="circle">
-        <img className="img" alt="logo" src="/img/tvIcon1.svg"></img>
+        <img className="img" alt="logo" src={image}></img>
       </div>
       <div className="content">
-        <div className="title">NCIS</div>
-        <div className="desc">out of the discreption</div>
+        <div className="title">{name}</div>
+        <div className="desc">{description}</div>
         <div className="location">
           <img className="marker mr-2" alt="marker" src="/img/marker.svg"></img>
-          <span>Canada, Alberta.v</span>
+          <span>{location}</span>
         </div>
       </div>
     </div>

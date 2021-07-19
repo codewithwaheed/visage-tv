@@ -1,14 +1,25 @@
 /* .liveTvRow{} */
 
+/* live tv css */
+.tvCardFlex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+/* live card css */
 .liveTvCard {
-  width: 355px;
+  width: 320px;
   height: 108px;
   border-radius: 20px;
   border: 1px solid #383547;
   position: relative;
-  padding: 20px 50px;
+  padding: 20px 0;
+  padding-left: 40px;
   display: flex;
   align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .liveTvCard .cardBadge {
   position: absolute;
@@ -50,4 +61,12 @@
   color: #0f72cb;
   display: flex;
   align-items: center;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1440px) {
+  .liveTvCard {
+    width: 355px;
+    padding: 20px 50px;
+  }
 }

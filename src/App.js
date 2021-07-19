@@ -4,13 +4,13 @@ import Header from "./Components/Header/Header";
 import { Route } from "react-router-dom";
 import LandingPage from "./pages/landingPage/LandingPage";
 import ContactUs from "./pages/contactUs/ContactUs";
-import ToggleContext from "./context/toggleContext";
+
 import Sidebar from "./Components/Sidebar/sideBar";
+import ContextWrapper from "./context/ContextWrapper";
 export default function App() {
-  const [currentState, setCurrentState] = useState("tv");
   return (
     <div>
-      <ToggleContext.Provider value={{ currentState, setCurrentState }}>
+      <ContextWrapper>
         <Header />
         <div className="mainDiv">
           <Sidebar />
@@ -19,7 +19,7 @@ export default function App() {
             <Route path="/contact-us" exact component={ContactUs} />
           </div>
         </div>
-      </ToggleContext.Provider>
+      </ContextWrapper>
     </div>
   );
 }
