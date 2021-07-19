@@ -2,7 +2,10 @@
   "name": "visage-tv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codewithwaheed.github.io/visage-tv/",
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.14.1",
