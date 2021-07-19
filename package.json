@@ -6,6 +6,7 @@
     "node": "14.16.1",
     "npm": "6.14.12"
   },
+  "homepage": "https://codewithwaheed.github.io/visage-tv/",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.14.1",
