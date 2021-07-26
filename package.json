@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.16.1",
-    "npm": "6.14.12"
+    "node": "14.16.1"
   },
-  "homepage": "https://codewithwaheed.github.io/visage-tv/",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -25,9 +23,7 @@
     "start": "react-scripts start",
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
